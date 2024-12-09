@@ -4,6 +4,8 @@ A curated list of latest research papers, projects and resources related to DiT/
 
 > Last Update: {{LAST_UPDATE}}
 
+Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
+
 {{NAVIGATION}}
 
 {{TABLE_OF_CONTENTS}}
