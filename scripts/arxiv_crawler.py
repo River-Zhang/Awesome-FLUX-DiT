@@ -32,11 +32,10 @@ class Paper:
 class ArxivCrawler:
     def __init__(self, fetch_citations: bool = False):
         self.logger = setup_logger("arxiv_crawler")
-        self.search_query = '(abs:"gaussian splatting" OR ti:"gaussian splatting" OR \
-                            abs:"3d gaussian" OR ti:"3d gaussian" OR \
-                            abs:"gaussian splat" OR ti:"gaussian splat" OR \
-                            abs:"3dgs" OR ti:"3dgs" OR \
-                            abs:"4d gaussian" OR ti:"4d gaussian")'
+        self.search_query = '(abs:"diffusion transformer" OR ti:"diffusion transformer" OR \
+                            abs:"DiT" OR ti:"DiT" OR \
+                            abs:"FLUX" OR ti:"FLUX" OR \
+                            abs:"rectified flow" OR ti:"rectified flow" OR'
         self.output_dir = Path("data")
         self.output_dir.mkdir(exist_ok=True)
         self.github_token = os.getenv("GITHUB_TOKEN")
