@@ -196,7 +196,7 @@ class ReadmeGenerator:
     def generate_categorized_sections(self, categorized_papers: Dict[str, List[Dict]]) -> str:
         """Generate sections for each category"""
         sections = "## Categorized Papers\n\n"
-        
+        num_show_papers = 50
         # Sort papers by date in each category
         for category in sorted(categorized_papers.keys()):
             if categorized_papers[category]:  # Only show categories with papers
@@ -208,11 +208,11 @@ class ReadmeGenerator:
                 )
                 
                 # Only show the latest 10 papers in each category
-                papers_to_show = sorted_papers[:10]
+                papers_to_show = sorted_papers[:num_show_papers]
                 total_papers = len(sorted_papers)
                 
                 sections += f"### {category}\n\n"
-                if total_papers > 50:
+                if total_papers > num_show_papers:
                     sections += f"*Showing the latest 50 out of {total_papers} papers*\n\n"
                 
                 for paper in papers_to_show:
