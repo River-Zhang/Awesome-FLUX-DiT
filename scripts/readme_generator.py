@@ -103,7 +103,7 @@ class ReadmeGenerator:
             arxiv_id = paper["arxiv_url"].split("/")[-1]
             
             # Basic information
-            entry = f'- **[{paper["title"]}](https://arxiv.org/abs/{arxiv_id})**  \n'
+            entry = f'- **[{paper["title"]}](https://arxiv.org/abs/{arxiv_id})** (Published: {paper["published_date"]})  \n'
             
             # Add authors
             authors = paper["authors"]
