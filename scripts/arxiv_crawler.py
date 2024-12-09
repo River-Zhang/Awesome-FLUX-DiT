@@ -35,7 +35,9 @@ class ArxivCrawler:
         self.search_query = '(abs:"diffusion transformer" OR ti:"diffusion transformer" OR \
                             abs:"DiT" OR ti:"DiT" OR \
                             abs:"FLUX" OR ti:"FLUX" OR \
-                            abs:"rectified flow" OR ti:"rectified flow" OR'
+                            abs:"rectified flow" OR ti:"rectified flow" OR\
+                            abs:"text-to-image" OR ti:"text-to-image" OR \
+                            abs:"image generation" OR ti:"image generation")'
         self.output_dir = Path("data")
         self.output_dir.mkdir(exist_ok=True)
         self.github_token = os.getenv("GITHUB_TOKEN")
