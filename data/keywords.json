@@ -3,10 +3,7 @@
         "description": "Common keywords that appear frequently across papers",
         "keywords": [
             "diffusion transformer",
-            "FLUX",
-            "image generation",
-            "DiT",
-            "rectified flow"
+            "FLUX"
         ]
     },
     
@@ -16,7 +13,7 @@
             "description": "Survey papers and benchmarks about Diffusion Transformer"
         },
         "Image Generation": {
-            "keywords": ["text-to-image","Control","Controllable","ControlNet"],
+            "keywords": ["text-to-image","Control","Controllable","ControlNet","image generation"],
             "description": "Papers focusing on image generation (text-to-image, controllable image generation) with Flux/DiT"
         },
         "Image Editing": {

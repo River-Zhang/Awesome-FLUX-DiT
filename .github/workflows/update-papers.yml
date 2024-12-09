@@ -2,7 +2,7 @@ name: Update Papers
 
 on:
   schedule:
-    - cron: '0 14 * * *'  # 每天 UTC 14:00 运行（北京时间 22:00）
+    - cron: '0 6 * * *'  # 每天 UTC 6:00 运行（北京时间 14:00）
   workflow_dispatch:  # 允许手动触发
 
 jobs:
