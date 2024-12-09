@@ -10,11 +10,11 @@
     
     "categories": {
         "Image Generation": {
-            "keywords": ["image generation", "text-to-image", "Control", "Controllable", "ControlNet","rectified flow"],
+            "keywords": ["image generation", "text-to-image", "Control", "Controllable", "ControlNet"],
             "description": "Papers focusing on image generation with Diffusion Transformer or FLUX"
         },
         "Image Editing": {
-            "keywords": ["image editing", "image stylization", "image inpainting", "image super-resolution", "image to image","rectified flow"],
+            "keywords": ["image editing", "image stylization", "image inpainting", "image super-resolution", "image to image"],
             "description": "Papers about image editing with Diffusion Transformer or FLUX"
         },
         "Video Related": {
