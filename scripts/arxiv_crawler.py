@@ -32,12 +32,12 @@ class Paper:
 class ArxivCrawler:
     def __init__(self, fetch_citations: bool = False):
         self.logger = setup_logger("arxiv_crawler")
-        self.search_query = '(abs:"diffusion transformer" OR ti:"diffusion transformer" OR \
-                            abs:"DiT" OR ti:"DiT" OR \
-                            abs:"FLUX" OR ti:"FLUX" OR \
-                            abs:"rectified flow" OR ti:"rectified flow" OR\
-                            abs:"text-to-image" OR ti:"text-to-image" OR \
-                            abs:"image generation" OR ti:"image generation")'
+        self.search_query = '(abs:"diffusion transformer" OR ti:"diffusion transformer" OR ' \
+                            'abs:"FLUX" OR ti:"FLUX") AND ' \
+                            '(abs:"image generation" OR ti:"image generation" OR ' \
+                            'abs:"image editing" OR ti:"image editing" OR ' \
+                            'abs:"video generation" OR ti:"video generation" OR ' \
+                            'abs:"video editing" OR ti:"video editing")'
         self.output_dir = Path("data")
         self.output_dir.mkdir(exist_ok=True)
         self.github_token = os.getenv("GITHUB_TOKEN")
@@ -197,7 +197,7 @@ class ArxivCrawler:
         
         return list(keywords)
 
-    def search_papers(self, max_results: int = 300) -> List[Paper]:
+    def search_papers(self, max_results: int = 100) -> List[Paper]:
         """Search papers on arXiv"""
         try:
             client = arxiv.Client()

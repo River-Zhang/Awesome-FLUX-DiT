@@ -3,34 +3,26 @@
         "description": "Common keywords that appear frequently across papers",
         "keywords": [
             "diffusion transformer",
-            "FLUX"
+            "FLUX",
+            "image generation",
+            "image editing",
+            "video generation",
+            "video editing"
         ]
     },
     
     "categories": {
-        "Surveys": {
-            "keywords": ["survey"],
-            "description": "Survey papers and benchmarks about Diffusion Transformer"
-        },
         "Image Generation": {
-            "keywords": ["text-to-image","Control","Controllable","ControlNet","image generation"],
-            "description": "Papers focusing on image generation (text-to-image, controllable image generation) with Flux/DiT"
+            "keywords": ["image generation", "text-to-image", "Control", "Controllable", "ControlNet"],
+            "description": "Papers focusing on image generation with Diffusion Transformer or FLUX"
         },
         "Image Editing": {
-            "keywords": ["image editing", "image stylization","image inpainting","image super-resolution","image to image"],
-            "description": "Papers about image editing with Flux/DiT"
+            "keywords": ["image editing", "image stylization", "image inpainting", "image super-resolution", "image to image"],
+            "description": "Papers about image editing with Diffusion Transformer or FLUX"
         },
         "Video Related": {
-            "keywords": [
-            "image to video",
-            "video generation",
-            "video editing",
-            "video inpainting",
-            "FLUX",
-            "DiT"
-            ],
-            "description": "Papers about video generation and editing with Flux/DiT"
+            "keywords": ["video generation", "video editing", "video inpainting"],
+            "description": "Papers about video generation and editing with Diffusion Transformer or FLUX"
         }
-        
     }
 } 
