@@ -197,7 +197,7 @@ class ArxivCrawler:
         
         return list(keywords)
 
-    def search_papers(self, max_results: int = 100) -> List[Paper]:
+    def search_papers(self, max_results: int = 300) -> List[Paper]:
         """Search papers on arXiv"""
         try:
             client = arxiv.Client()
@@ -209,39 +209,48 @@ class ArxivCrawler:
             )
 
             papers = []
-            for result in client.results(search):
-                try:
-                    arxiv_id = result.entry_id.split('/')[-1]
-                    citations, semantic_url = self._get_citations(arxiv_id) if self.fetch_citations else (0, '')
-                    
-                    # Clean abstract text
-                    abstract = result.summary.replace('\n', ' ').strip()
-                    # Find GitHub link in title and abstract
-                    github_url = self._find_github_url(abstract, result.title.strip())
-                    # Extract keywords from title and abstract
-                    keywords = self._extract_keywords(abstract, result.title.strip())
-                    
-                    paper = Paper(
-                        title=result.title.strip(),
-                        authors=[author.name.strip() for author in result.authors],
-                        abstract=abstract,
-                        arxiv_url=result.entry_id,
-                        pdf_url=result.pdf_url,
-                        published_date=result.published.strftime("%Y-%m-%d"),
-                        categories=[cat for cat in result.categories],
-                        github_url=github_url or "",
-                        keywords=keywords,
-                        citations=citations,
-                        semantic_url=semantic_url
-                    )
-                    papers.append(paper)
-                    self.logger.info(f"Successfully processed paper: {paper.title}")
-                except Exception as e:
-                    self.logger.error(f"Error processing single paper: {e}")
-                    continue
+            try:
+                for result in client.results(search):
+                    try:
+                        arxiv_id = result.entry_id.split('/')[-1]
+                        citations, semantic_url = self._get_citations(arxiv_id) if self.fetch_citations else (0, '')
+                        
+                        # Clean abstract text
+                        abstract = result.summary.replace('\n', ' ').strip()
+                        github_url = self._find_github_url(abstract, result.title.strip())
+                        keywords = self._extract_keywords(abstract, result.title.strip())
+                        
+                        paper = Paper(
+                            title=result.title.strip(),
+                            authors=[author.name.strip() for author in result.authors],
+                            abstract=abstract,
+                            arxiv_url=result.entry_id,
+                            pdf_url=result.pdf_url,
+                            published_date=result.published.strftime("%Y-%m-%d"),
+                            categories=[cat for cat in result.categories],
+                            github_url=github_url or "",
+                            keywords=keywords,
+                            citations=citations,
+                            semantic_url=semantic_url
+                        )
+                        papers.append(paper)
+                        self.logger.info(f"Successfully processed paper: {paper.title}")
+                    except Exception as e:
+                        self.logger.error(f"Error processing single paper: {e}")
+                        continue
+            except Exception as e:
+                # 如果是空结果页面的错误，直接返回已收集的论文
+                if "Page of results was unexpectedly empty" in str(e):
+                    self.logger.info(f"Reached end of results after collecting {len(papers)} papers")
+                    return papers
+                raise
             
             return papers
         except Exception as e:
+            # 如果已经收集到论文，即使出错也返回结果
+            if papers:
+                self.logger.warning(f"Search completed with warning: {e}")
+                return papers
             self.logger.error(f"Error searching papers: {e}")
             raise
 

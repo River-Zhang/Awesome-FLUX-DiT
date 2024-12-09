@@ -20,7 +20,7 @@ def validate_readme_content(readme_path: str) -> bool:
             
         # Check for English headers
         required_headers = [
-            "# Awesome Gaussian Splatting",
+            "# Awesome FLUX/DiT methods",
             "## Table of Contents",
             "## Classic Papers",
             "## Open Source Projects",
