@@ -2,83 +2,37 @@
     "common_keywords": {
         "description": "Common keywords that appear frequently across papers",
         "keywords": [
-            "gaussian splatting",
-            "3d gaussian",
-            "neural rendering",
-            "real-time rendering",
-            "3d reconstruction",
-            "nerf"
+            "diffusion transformer",
+            "FLUX",
+            "image generation",
+            "DiT"
         ]
     },
+    
     "categories": {
-        "3DGS Surveys": {
+        "Surveys": {
             "keywords": ["survey"],
-            "description": "Survey papers and benchmarks about 3D Gaussian Splatting"
+            "description": "Survey papers and benchmarks about Diffusion Transformer"
         },
-        "Quality Enhancement": {
-            "keywords": ["quality enhancement", "high quality", "high-fidelity"],
-            "description": "Papers focusing on improving rendering quality"
+        "Image Generation": {
+            "keywords": ["text-to-image","Control","Controllable","ControlNet"],
+            "description": "Papers focusing on image generation (text-to-image, controllable image generation) with Flux/DiT"
         },
-        "Acceleration": {
-            "keywords": ["real-time rendering", "acceleration", "fast", "efficient rendering"],
-            "description": "Papers about speeding up rendering or training"
+        "Image Editing": {
+            "keywords": ["image editing", "image stylization","image inpainting","image super-resolution","image to image"],
+            "description": "Papers about image editing with Flux/DiT"
         },
-        "Ray Tracing": {
+        "Video Related": {
             "keywords": [
-                "ray tracing",
-                "ray casting",
-                "path tracing",
-                "ray marching",
-                "global illumination"
+                "image to video",
+            "video generation",
+            "video editing",
+            "video inpainting"
             ],
-            "description": "Papers about ray tracing and ray casting in Gaussian Splatting"
-        },
-        "Relighting": {
-            "keywords": [
-                "relighting",
-                "relightable",
-                "illumination",
-                "light transport",
-                "lighting",
-                "shadow",
-                "reflection"
-            ],
-            "description": "Papers about relighting and illumination effects in Gaussian Splatting"
-        },
-        "Geometry Reconstruction": {
-            "keywords": ["3d reconstruction", "geometry", "shape reconstruction"],
-            "description": "Papers about 3D geometry reconstruction"
-        },
-        "Dynamic Scene": {
-            "keywords": ["dynamic", "4d", "motion", "deformation", "animation"],
-            "description": "Papers about dynamic scene reconstruction and rendering"
-        },
-        "Few-shot": {
-            "keywords": ["few-shot", "sparse view", "sparse-view"],
-            "description": "Papers about few-shot or sparse view reconstruction"
-        },
-        "Large Scene": {
-            "keywords": ["large scene", "urban scene", "outdoor"],
-            "description": "Papers about large-scale scene reconstruction"
-        },
-        "Model Compression": {
-            "keywords": ["compression", "compact", "efficient", "lightweight"],
-            "description": "Papers about model compression and optimization"
-        },
-        "Avatar Generation": {
-            "keywords": ["avatar", "human", "face", "head", "body"],
-            "description": "Papers about human avatar generation"
-        },
-        "Scene Understanding": {
-            "keywords": ["semantic", "segmentation", "understanding", "recognition"],
-            "description": "Papers about scene understanding and semantic analysis"
-        },
-        "SLAM": {
-            "keywords": ["slam", "tracking", "mapping", "localization"],
-            "description": "Papers about SLAM using Gaussian Splatting"
+            "description": "Papers about video generation and editing with Flux/DiT"
         },
         "Applications": {
-            "keywords": ["medical", "robotics", "autonomous driving", "ar", "vr"],
+            "keywords": ["vr","3D generation","3D reconstruction"],
             "description": "Papers about specific applications"
         }
     }

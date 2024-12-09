@@ -35,3 +35,6 @@ Feel free to submit Pull Requests to improve this list! Please follow these form
 
 ## License
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/) 
+
+## Acknowledgements
+Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
