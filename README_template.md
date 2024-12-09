@@ -1,6 +1,6 @@
-# Awesome Gaussian Splatting [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome FLUX/DiT methods [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-A curated list of latest research papers, projects and resources related to Gaussian Splatting. Content is automatically updated daily.
+A curated list of latest research papers, projects and resources related to DiT/FLUX. Content is automatically updated daily.
 
 > Last Update: {{LAST_UPDATE}}
 

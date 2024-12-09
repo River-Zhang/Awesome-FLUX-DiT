@@ -5,7 +5,8 @@
             "diffusion transformer",
             "FLUX",
             "image generation",
-            "DiT"
+            "DiT",
+            "rectified flow"
         ]
     },
     
@@ -27,13 +28,12 @@
                 "image to video",
             "video generation",
             "video editing",
-            "video inpainting"
+            "video inpainting",
+            "FLUX",
+            "DiT"
             ],
             "description": "Papers about video generation and editing with Flux/DiT"
-        },
-        "Applications": {
-            "keywords": ["vr","3D generation","3D reconstruction"],
-            "description": "Papers about specific applications"
         }
+        
     }
 } 
