@@ -16,11 +16,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
+      "Control",
       "video generation",
-      "diffusion transformer",
       "text-to-image",
-      "Control"
+      "image generation",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -50,9 +50,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -75,11 +75,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
-      "diffusion transformer",
       "FLUX",
+      "video generation",
       "text-to-image",
-      "video generation"
+      "image generation",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -107,8 +107,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -134,9 +134,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -162,8 +162,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
+      "Control",
       "Controllable",
       "diffusion transformer"
     ],
@@ -191,10 +191,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "Controllable",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -220,9 +220,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -268,8 +268,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
+      "Control",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -294,10 +294,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
-      "Control",
+      "FLUX",
       "image generation",
-      "FLUX"
+      "Control",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -322,10 +322,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -349,10 +349,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "Controllable",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -432,11 +432,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
-      "rectified flow",
+      "Control",
       "FLUX",
       "text-to-image",
-      "Control"
+      "image generation",
+      "rectified flow"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -492,9 +492,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -520,9 +520,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image editing",
       "image generation",
+      "Control",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -547,9 +547,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
+      "FLUX",
       "image generation",
-      "FLUX"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -572,8 +572,8 @@
     ],
     "github_url": "https://github.com/OpenSparseLLMs/Skip-DiT.git",
     "keywords": [
-      "video generation",
       "image generation",
+      "video generation",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -601,10 +601,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "Controllable",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -713,9 +713,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image editing",
       "inversion",
+      "Control",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -788,10 +788,10 @@
     "github_url": "",
     "keywords": [
       "image editing",
-      "rectified flow",
       "FLUX",
+      "text-to-image",
       "inversion",
-      "text-to-image"
+      "rectified flow"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -838,9 +838,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image editing",
       "image generation",
+      "Control",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -868,12 +868,12 @@
     ],
     "github_url": "https://github.com/wangjiangshan0725/RF-Solver-Edit",
     "keywords": [
-      "diffusion transformer",
-      "rectified flow",
+      "video editing",
       "FLUX",
-      "inversion",
       "video generation",
-      "video editing"
+      "inversion",
+      "rectified flow",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -898,11 +898,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "image editing",
-      "image generation",
-      "diffusion transformer",
       "inversion",
-      "Control"
+      "image generation",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -928,9 +928,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -956,10 +956,10 @@
     ],
     "github_url": "https://github.com/antonioo-c/Regional-Prompting-FLUX",
     "keywords": [
-      "text-to-image",
+      "FLUX",
       "image generation",
-      "diffusion transformer",
-      "FLUX"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -983,9 +983,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1014,8 +1014,8 @@
     "github_url": "https://github.com/ali-vilab/In-Context-LoRA",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1037,9 +1037,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
+      "FLUX",
       "image generation",
-      "FLUX"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1089,10 +1089,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "Control",
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1116,8 +1116,8 @@
     ],
     "github_url": "https://github.com/whlzy/FiT",
     "keywords": [
-      "rectified flow",
       "image generation",
+      "rectified flow",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -1142,9 +1142,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1170,11 +1170,11 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "image editing",
-      "rectified flow",
       "FLUX",
       "inversion",
-      "Control"
+      "rectified flow"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1196,10 +1196,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "video generation",
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1226,9 +1226,9 @@
     ],
     "github_url": "https://github.com/YangLing0818/IterComp",
     "keywords": [
-      "text-to-image",
+      "FLUX",
       "image generation",
-      "FLUX"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1340,8 +1340,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1369,8 +1369,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image super-resolution",
       "image generation",
+      "image super-resolution",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -1399,12 +1399,12 @@
     ],
     "github_url": "https://github.com/AFeng-x/PixWizard",
     "keywords": [
+      "Control",
       "image editing",
       "Controllable",
-      "image generation",
-      "diffusion transformer",
       "text-to-image",
-      "Control"
+      "image generation",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1509,10 +1509,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "Controllable",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1538,8 +1538,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
       "image generation",
+      "video generation",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -1563,8 +1563,8 @@
     ],
     "github_url": "https://github.com/aimagelab/Alfie",
     "keywords": [
-      "Control",
       "image generation",
+      "Control",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -1588,10 +1588,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image editing",
-      "diffusion transformer",
-      "text-to-image"
+      "Control",
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1653,8 +1653,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
+      "Control",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -1744,10 +1744,10 @@
     ],
     "github_url": "https://github.com/alibaba/Tora",
     "keywords": [
-      "Control",
       "Controllable",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1772,9 +1772,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1855,10 +1855,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "Controllable",
-      "diffusion transformer",
-      "video generation"
+      "video generation",
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1962,8 +1962,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2038,8 +2038,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
       "image generation",
+      "video generation",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -2072,8 +2072,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2139,8 +2139,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2171,8 +2171,8 @@
     "github_url": "",
     "keywords": [
       "video generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2222,9 +2222,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "video generation",
       "Control",
-      "diffusion transformer",
-      "video generation"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2294,8 +2294,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
       "image generation",
+      "video generation",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -2327,8 +2327,8 @@
     "github_url": "https://github.com/Lucky-Lance/TerDiT",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2392,8 +2392,8 @@
     "github_url": "https://github.com/Tencent/HunyuanDiT",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2495,8 +2495,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2546,10 +2546,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "Control",
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2605,8 +2605,8 @@
     "github_url": "",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2734,9 +2734,9 @@
     "github_url": "",
     "keywords": [
       "image editing",
+      "FLUX",
       "inversion",
-      "text-to-image",
-      "FLUX"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2794,10 +2794,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Control",
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "Control",
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2909,8 +2909,8 @@
     "github_url": "https://github.com/YehLi/xmodaler",
     "keywords": [
       "image generation",
-      "diffusion transformer",
-      "text-to-image"
+      "text-to-image",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
