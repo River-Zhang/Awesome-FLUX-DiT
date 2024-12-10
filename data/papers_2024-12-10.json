@@ -1,5 +1,119 @@
 [
   {
+    "title": "FlexDiT: Dynamic Token Density Control for Diffusion Transformer",
+    "authors": [
+      "Shuning Chang",
+      "Pichao Wang",
+      "Jiasheng Tang",
+      "Yi Yang"
+    ],
+    "abstract": "Diffusion Transformers (DiT) deliver impressive generative performance but face prohibitive computational demands due to both the quadratic complexity of token-based self-attention and the need for extensive sampling steps. While recent research has focused on accelerating sampling, the structural inefficiencies of DiT remain underexplored. We propose FlexDiT, a framework that dynamically adapts token density across both spatial and temporal dimensions to achieve computational efficiency without compromising generation quality. Spatially, FlexDiT employs a three-segment architecture that allocates token density based on feature requirements at each layer: Poolingformer in the bottom layers for efficient global feature extraction, Sparse-Dense Token Modules (SDTM) in the middle layers to balance global context with local detail, and dense tokens in the top layers to refine high-frequency details. Temporally, FlexDiT dynamically modulates token density across denoising stages, progressively increasing token count as finer details emerge in later timesteps. This synergy between FlexDiT's spatially adaptive architecture and its temporal pruning strategy enables a unified framework that balances efficiency and fidelity throughout the generation process. Our experiments demonstrate FlexDiT's effectiveness, achieving a 55% reduction in FLOPs and a 175% improvement in inference speed on DiT-XL with only a 0.09 increase in FID score on 512$\\times$512 ImageNet images, a 56% reduction in FLOPs across video generation datasets including FaceForensics, SkyTimelapse, UCF101, and Taichi-HD, and a 69% improvement in inference speed on PixArt-$\\alpha$ on text-to-image generation task with a 0.24 FID score decrease. FlexDiT provides a scalable solution for high-quality diffusion-based generation compatible with further sampling optimization techniques.",
+    "arxiv_url": "http://arxiv.org/abs/2412.06028v1",
+    "pdf_url": "http://arxiv.org/pdf/2412.06028v1",
+    "published_date": "2024-12-08",
+    "categories": [
+      "cs.CV"
+    ],
+    "github_url": "",
+    "keywords": [
+      "image generation",
+      "video generation",
+      "diffusion transformer",
+      "text-to-image",
+      "Control"
+    ],
+    "citations": 0,
+    "semantic_url": ""
+  },
+  {
+    "title": "MotionStone: Decoupled Motion Intensity Modulation with Diffusion Transformer for Image-to-Video Generation",
+    "authors": [
+      "Shuwei Shi",
+      "Biao Gong",
+      "Xi Chen",
+      "Dandan Zheng",
+      "Shuai Tan",
+      "Zizheng Yang",
+      "Yuyuan Li",
+      "Jingwen He",
+      "Kecheng Zheng",
+      "Jingdong Chen",
+      "Ming Yang",
+      "Yinqiang Zheng"
+    ],
+    "abstract": "The image-to-video (I2V) generation is conditioned on the static image, which has been enhanced recently by the motion intensity as an additional control signal. These motion-aware models are appealing to generate diverse motion patterns, yet there lacks a reliable motion estimator for training such models on large-scale video set in the wild. Traditional metrics, e.g., SSIM or optical flow, are hard to generalize to arbitrary videos, while, it is very tough for human annotators to label the abstract motion intensity neither. Furthermore, the motion intensity shall reveal both local object motion and global camera movement, which has not been studied before. This paper addresses the challenge with a new motion estimator, capable of measuring the decoupled motion intensities of objects and cameras in video. We leverage the contrastive learning on randomly paired videos and distinguish the video with greater motion intensity. Such a paradigm is friendly for annotation and easy to scale up to achieve stable performance on motion estimation. We then present a new I2V model, named MotionStone, developed with the decoupled motion estimator. Experimental results demonstrate the stability of the proposed motion estimator and the state-of-the-art performance of MotionStone on I2V generation. These advantages warrant the decoupled motion estimator to serve as a general plug-in enhancer for both data processing and video generation training.",
+    "arxiv_url": "http://arxiv.org/abs/2412.05848v1",
+    "pdf_url": "http://arxiv.org/pdf/2412.05848v1",
+    "published_date": "2024-12-08",
+    "categories": [
+      "cs.CV"
+    ],
+    "github_url": "",
+    "keywords": [
+      "Control",
+      "diffusion transformer",
+      "video generation"
+    ],
+    "citations": 0,
+    "semantic_url": ""
+  },
+  {
+    "title": "Self-Guidance: Boosting Flow and Diffusion Generation on Their Own",
+    "authors": [
+      "Tiancheng Li",
+      "Weijian Luo",
+      "Zhiyang Chen",
+      "Liyuan Ma",
+      "Guo-Jun Qi"
+    ],
+    "abstract": "Proper guidance strategies are essential to get optimal generation results without re-training diffusion and flow-based text-to-image models. However, existing guidances either require specific training or strong inductive biases of neural network architectures, potentially limiting their applications. To address these issues, in this paper, we introduce Self-Guidance (SG), a strong diffusion guidance that neither needs specific training nor requires certain forms of neural network architectures. Different from previous approaches, the Self-Guidance calculates the guidance vectors by measuring the difference between the velocities of two successive diffusion timesteps. Therefore, SG can be readily applied for both conditional and unconditional models with flexible network architectures. We conduct intensive experiments on both text-to-image generation and text-to-video generations across flexible architectures including UNet-based models and diffusion transformer-based models. On current state-of-the-art diffusion models such as Stable Diffusion 3.5 and FLUX, SG significantly boosts the image generation performance in terms of FID, and Human Preference Scores. Moreover, we find that SG has a surprisingly positive effect on the generation of high-quality human bodies such as hands, faces, and arms, showing strong potential to overcome traditional challenges on human body generations with minimal effort. We will release our implementation of SG on SD 3.5 and FLUX models along with this paper.",
+    "arxiv_url": "http://arxiv.org/abs/2412.05827v1",
+    "pdf_url": "http://arxiv.org/pdf/2412.05827v1",
+    "published_date": "2024-12-08",
+    "categories": [
+      "cs.CV"
+    ],
+    "github_url": "",
+    "keywords": [
+      "image generation",
+      "diffusion transformer",
+      "FLUX",
+      "text-to-image",
+      "video generation"
+    ],
+    "citations": 0,
+    "semantic_url": ""
+  },
+  {
+    "title": "Language-Guided Image Tokenization for Generation",
+    "authors": [
+      "Kaiwen Zha",
+      "Lijun Yu",
+      "Alireza Fathi",
+      "David A. Ross",
+      "Cordelia Schmid",
+      "Dina Katabi",
+      "Xiuye Gu"
+    ],
+    "abstract": "Image tokenization, the process of transforming raw image pixels into a compact low-dimensional latent representation, has proven crucial for scalable and efficient image generation. However, mainstream image tokenization methods generally have limited compression rates, making high-resolution image generation computationally expensive. To address this challenge, we propose to leverage language for efficient image tokenization, and we call our method Text-Conditioned Image Tokenization (TexTok). TexTok is a simple yet effective tokenization framework that leverages language to provide high-level semantics. By conditioning the tokenization process on descriptive text captions, TexTok allows the tokenization process to focus on encoding fine-grained visual details into latent tokens, leading to enhanced reconstruction quality and higher compression rates. Compared to the conventional tokenizer without text conditioning, TexTok achieves average reconstruction FID improvements of 29.2% and 48.1% on ImageNet-256 and -512 benchmarks respectively, across varying numbers of tokens. These tokenization improvements consistently translate to 16.3% and 34.3% average improvements in generation FID. By simply replacing the tokenizer in Diffusion Transformer (DiT) with TexTok, our system can achieve a 93.5x inference speedup while still outperforming the original DiT using only 32 tokens on ImageNet-512. TexTok with a vanilla DiT generator achieves state-of-the-art FID scores of 1.46 and 1.62 on ImageNet-256 and -512 respectively. Furthermore, we demonstrate TexTok's superiority on the text-to-image generation task, effectively utilizing the off-the-shelf text captions in tokenization.",
+    "arxiv_url": "http://arxiv.org/abs/2412.05796v1",
+    "pdf_url": "http://arxiv.org/pdf/2412.05796v1",
+    "published_date": "2024-12-08",
+    "categories": [
+      "cs.CV",
+      "cs.AI",
+      "cs.LG"
+    ],
+    "github_url": "",
+    "keywords": [
+      "image generation",
+      "diffusion transformer",
+      "text-to-image"
+    ],
+    "citations": 0,
+    "semantic_url": ""
+  },
+  {
     "title": "Mind the Time: Temporally-Controlled Multi-Event Video Generation",
     "authors": [
       "Ziyi Wu",
@@ -20,9 +134,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -48,10 +162,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "Controllable",
+      "Control",
       "image generation",
-      "diffusion transformer",
-      "Control"
+      "Controllable",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -77,10 +191,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "Controllable",
-      "video generation",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -106,10 +220,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
-      "ControlNet",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -155,9 +268,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "image generation",
-      "diffusion transformer",
-      "Control"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -209,10 +322,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "image generation",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -236,10 +349,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "Controllable",
-      "video generation",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -319,11 +432,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "rectified flow",
       "image generation",
-      "Control",
+      "rectified flow",
+      "FLUX",
       "text-to-image",
-      "FLUX"
+      "Control"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -379,9 +492,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -407,10 +520,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
+      "Control",
       "image editing",
-      "diffusion transformer",
-      "Control"
+      "image generation",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -488,10 +601,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "Controllable",
-      "video generation",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -543,8 +656,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "diffusion transformer",
-      "Control"
+      "Control",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -571,9 +684,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "image editing",
       "image generation",
-      "diffusion transformer",
-      "image editing"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -600,9 +713,10 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "image editing",
-      "diffusion transformer",
-      "Control"
+      "inversion",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -673,10 +787,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
-      "rectified flow",
       "image editing",
-      "FLUX"
+      "rectified flow",
+      "FLUX",
+      "inversion",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -723,10 +838,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
+      "Control",
       "image editing",
-      "diffusion transformer",
-      "Control"
+      "image generation",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -753,10 +868,11 @@
     ],
     "github_url": "https://github.com/wangjiangshan0725/RF-Solver-Edit",
     "keywords": [
-      "rectified flow",
-      "video generation",
       "diffusion transformer",
+      "rectified flow",
       "FLUX",
+      "inversion",
+      "video generation",
       "video editing"
     ],
     "citations": 0,
@@ -782,9 +898,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
       "image editing",
+      "image generation",
       "diffusion transformer",
+      "inversion",
       "Control"
     ],
     "citations": 0,
@@ -811,9 +928,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -866,9 +983,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -896,9 +1013,9 @@
     ],
     "github_url": "https://github.com/ali-vilab/In-Context-LoRA",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -972,10 +1089,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
+      "Control",
       "image generation",
       "diffusion transformer",
-      "Control"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1025,9 +1142,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1053,10 +1170,11 @@
     ],
     "github_url": "",
     "keywords": [
-      "rectified flow",
-      "Control",
       "image editing",
-      "FLUX"
+      "rectified flow",
+      "FLUX",
+      "inversion",
+      "Control"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1078,10 +1196,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "video generation",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1221,9 +1339,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1251,8 +1369,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "image generation",
       "image super-resolution",
+      "image generation",
       "diffusion transformer"
     ],
     "citations": 0,
@@ -1281,12 +1399,12 @@
     ],
     "github_url": "https://github.com/AFeng-x/PixWizard",
     "keywords": [
-      "image generation",
-      "Control",
       "image editing",
-      "text-to-image",
+      "Controllable",
+      "image generation",
       "diffusion transformer",
-      "Controllable"
+      "text-to-image",
+      "Control"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1311,8 +1429,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "diffusion transformer",
-      "video editing"
+      "video editing",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1392,10 +1510,9 @@
     "github_url": "",
     "keywords": [
       "Control",
-      "ControlNet",
-      "video generation",
+      "Controllable",
       "diffusion transformer",
-      "Controllable"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1446,9 +1563,9 @@
     ],
     "github_url": "https://github.com/aimagelab/Alfie",
     "keywords": [
+      "Control",
       "image generation",
-      "diffusion transformer",
-      "Control"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1471,10 +1588,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
+      "Control",
       "image editing",
       "diffusion transformer",
-      "Control"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1536,9 +1653,9 @@
     ],
     "github_url": "",
     "keywords": [
+      "Control",
       "image generation",
-      "diffusion transformer",
-      "Control"
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1627,10 +1744,10 @@
     ],
     "github_url": "https://github.com/alibaba/Tora",
     "keywords": [
+      "Control",
       "Controllable",
-      "video generation",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1655,9 +1772,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1739,10 +1856,9 @@
     "github_url": "",
     "keywords": [
       "Control",
-      "ControlNet",
-      "video generation",
+      "Controllable",
       "diffusion transformer",
-      "Controllable"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1845,9 +1961,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -1955,9 +2071,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2022,9 +2138,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2055,8 +2171,8 @@
     "github_url": "",
     "keywords": [
       "video generation",
-      "text-to-image",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2106,10 +2222,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "video generation",
-      "ControlNet",
+      "Control",
       "diffusion transformer",
-      "Control"
+      "video generation"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2211,9 +2326,9 @@
     ],
     "github_url": "https://github.com/Lucky-Lance/TerDiT",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2276,9 +2391,9 @@
     ],
     "github_url": "https://github.com/Tencent/HunyuanDiT",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2357,8 +2472,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "diffusion transformer",
-      "image editing"
+      "image editing",
+      "diffusion transformer"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2379,9 +2494,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2431,10 +2546,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
+      "Control",
       "image generation",
       "diffusion transformer",
-      "Control"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2489,9 +2604,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2618,8 +2733,9 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
       "image editing",
+      "inversion",
+      "text-to-image",
       "FLUX"
     ],
     "citations": 0,
@@ -2678,10 +2794,10 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
+      "Control",
       "image generation",
       "diffusion transformer",
-      "Control"
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2764,8 +2880,8 @@
     ],
     "github_url": "",
     "keywords": [
-      "text-to-image",
-      "image generation"
+      "image generation",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
@@ -2792,9 +2908,9 @@
     ],
     "github_url": "https://github.com/YehLi/xmodaler",
     "keywords": [
-      "text-to-image",
       "image generation",
-      "diffusion transformer"
+      "diffusion transformer",
+      "text-to-image"
     ],
     "citations": 0,
     "semantic_url": ""
