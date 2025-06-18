@@ -2,7 +2,7 @@
 
 A curated list of latest research papers, projects and resources related to DiT/FLUX. Content is automatically updated daily.
 
-> Last Update: 2025-06-17 06:35:25
+> Last Update: 2025-06-18 06:35:16
 
 Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 
@@ -37,11 +37,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Flow Diverse and Efficient: Learning Momentum Flow Matching via Stochastic Velocity Field Sampling](https://arxiv.org/abs/2506.08796v1)** (Published: 2025-06-10)  
   Authors: Zhiyuan Ma, Ruixun Liu, Sixian Liu, Jianjun Li, Bowen Zhou  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.08796v1.pdf) | [![GitHub](https://img.shields.io/github/stars/liuruixun/momentum-fm?style=social)](https://github.com/liuruixun/momentum-fm)  
-  Keywords: rectified flow, FLUX  
+  Keywords: FLUX, rectified flow  
 - **[Image Editing As Programs with Diffusion Models](https://arxiv.org/abs/2506.04158v1)** (Published: 2025-06-04)  
   Authors: Yujia Hu, Songhua Liu, Zhenxiong Tan, Xingyi Yang, Xinchao Wang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.04158v1.pdf) | [![GitHub](https://img.shields.io/github/stars/YujiaHu1109/IEAP?style=social)](https://github.com/YujiaHu1109/IEAP)  
-  Keywords: image editing, diffusion transformer, text-to-image, image generation  
+  Keywords: diffusion transformer, image editing, text-to-image, image generation  
 - **[ByteMorph: Benchmarking Instruction-Guided Image Editing with Non-Rigid Motions](https://arxiv.org/abs/2506.03107v2)** (Published: 2025-06-03)  
   Authors: Di Chang, Mingdeng Cao, Yichun Shi, Bo Liu, Shengqu Cai, Shijie Zhou, Weilin Huang, Gordon Wetzstein, Mohammad Soleymani, Peng Wang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.03107v2.pdf)  
@@ -53,19 +53,19 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[LoRAShop: Training-Free Multi-Concept Image Generation and Editing with Rectified Flow Transformers](https://arxiv.org/abs/2505.23758v1)** (Published: 2025-05-29)  
   Authors: Yusuf Dalva, Hidir Yesiltepe, Pinar Yanardag  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23758v1.pdf)  
-  Keywords: image editing, FLUX, rectified flow, diffusion transformer, image generation  
+  Keywords: FLUX, diffusion transformer, image generation, rectified flow, image editing  
 - **[HiDream-I1: A High-Efficient Image Generative Foundation Model with Sparse Diffusion Transformer](https://arxiv.org/abs/2505.22705v1)** (Published: 2025-05-28)  
   Authors: Qi Cai, Jingwen Chen, Yang Chen, Yehao Li, Fuchen Long, Yingwei Pan, Zhaofan Qiu, Yiheng Zhang, Fengbin Gao, Peihan Xu, Yimeng Wang, Kai Yu, Wenxuan Chen, Ziwei Feng, Zijian Gong, Jianzhuang Pan, Yi Peng, Rui Tian, Siyu Wang, Bo Zhao, Ting Yao, Tao Mei  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22705v1.pdf) | [![GitHub](https://img.shields.io/github/stars/HiDream-ai/HiDream-I1?style=social)](https://github.com/HiDream-ai/HiDream-I1) | [![Project](https://img.shields.io/badge/-Project-blue)](https://vivago.ai/studio.)  
-  Keywords: image editing, diffusion transformer, text-to-image, image generation  
+  Keywords: diffusion transformer, image editing, text-to-image, image generation  
 - **[DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818v1)** (Published: 2025-05-12)  
   Authors: Zeyue Xue, Jie Wu, Yu Gao, Fangyuan Kong, Lingting Zhu, Mengzhao Chen, Zhiheng Liu, Wei Liu, Qiushan Guo, Weilin Huang, Ping Luo  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.07818v1.pdf)  
-  Keywords: rectified flow, video generation, text-to-image, FLUX  
+  Keywords: FLUX, rectified flow, text-to-image, video generation  
 - **[Lay-Your-Scene: Natural Scene Layout Generation with Diffusion Transformers](https://arxiv.org/abs/2505.04718v1)** (Published: 2025-05-07)  
   Authors: Divyansh Srivastava, Xiang Zhang, He Wen, Chenru Wen, Zhuowen Tu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04718v1.pdf)  
-  Keywords: image editing, Controllable, image generation, diffusion transformer, Control  
+  Keywords: Control, diffusion transformer, Controllable, image generation, image editing  
 - **[In-Context Edit: Enabling Instructional Image Editing with In-Context Generation in Large Scale Diffusion Transformer](https://arxiv.org/abs/2504.20690v1)** (Published: 2025-04-29)  
   Authors: Zechuan Zhang, Ji Xie, Yu Lu, Zongxin Yang, Yi Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.20690v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://river-zhang.github.io/ICEdit-gh-pages/.)  
@@ -73,23 +73,23 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Disentangling Instruction Influence in Diffusion Transformers for Parallel Multi-Instruction-Guided Image Editing](https://arxiv.org/abs/2504.04784v1)** (Published: 2025-04-07)  
   Authors: Hui Liu, Bin Zou, Suiyun Zhang, Kecheng Chen, Rui Liu, Haoliang Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.04784v1.pdf)  
-  Keywords: diffusion transformer, image editing, Control  
+  Keywords: diffusion transformer, Control, image editing  
 - **[Detection Limits and Statistical Separability of Tree Ring Watermarks in Rectified Flow-based Text-to-Image Generation Models](https://arxiv.org/abs/2504.03850v1)** (Published: 2025-04-04)  
   Authors: Ved Umrajkar, Aakash Kumar Singh  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.03850v1.pdf) | [![GitHub](https://img.shields.io/github/stars/dsgiitr/flux-watermarking?style=social)](https://github.com/dsgiitr/flux-watermarking)  
-  Keywords: text-to-image, inversion, FLUX, rectified flow, image generation  
+  Keywords: FLUX, inversion, image generation, rectified flow, text-to-image  
 - **[DiT4SR: Taming Diffusion Transformer for Real-World Image Super-Resolution](https://arxiv.org/abs/2503.23580v1)** (Published: 2025-03-30)  
   Authors: Zheng-Peng Duan, Jiawei Zhang, Xin Jin, Ziheng Zhang, Zheng Xiong, Dongqing Zou, Jimmy Ren, Chun-Le Guo, Chongyi Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.23580v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://adam-duan.github.io/projects/dit4sr/.)  
-  Keywords: Control, diffusion transformer, image generation, image super-resolution  
+  Keywords: diffusion transformer, Control, image super-resolution, image generation  
 - **[FreeFlux: Understanding and Exploiting Layer-Specific Roles in RoPE-Based MMDiT for Versatile Image Editing](https://arxiv.org/abs/2503.16153v1)** (Published: 2025-03-20)  
   Authors: Tianyi Wei, Yifan Zhou, Dongdong Chen, Xingang Pan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.16153v1.pdf)  
-  Keywords: image editing, text-to-image, FLUX, diffusion transformer, image generation  
+  Keywords: FLUX, diffusion transformer, image generation, image editing, text-to-image  
 - **[Personalize Anything for Free with Diffusion Transformer](https://arxiv.org/abs/2503.12590v1)** (Published: 2025-03-16)  
   Authors: Haoran Feng, Zehuan Huang, Lin Li, Hairong Lv, Lu Sheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.12590v1.pdf)  
-  Keywords: Control, diffusion transformer, image editing, image generation  
+  Keywords: diffusion transformer, Control, image editing, image generation  
 - **[NAMI: Efficient Image Generation via Progressive Rectified Flow Transformers](https://arxiv.org/abs/2503.09242v1)** (Published: 2025-03-12)  
   Authors: Yuhang Ma, Bo Cheng, Shanyuan Liu, Ao Ma, Xiaoyu Wu, Liebucha Wu, Dawei Leng, Yuhui Yin  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.09242v1.pdf)  
@@ -97,43 +97,43 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Bokeh Diffusion: Defocus Blur Control in Text-to-Image Diffusion Models](https://arxiv.org/abs/2503.08434v4)** (Published: 2025-03-11)  
   Authors: Armando Fortes, Tianyi Wei, Shangchen Zhou, Xingang Pan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.08434v4.pdf)  
-  Keywords: image editing, text-to-image, inversion, FLUX, Control  
+  Keywords: FLUX, Control, inversion, image editing, text-to-image  
 - **[Seedream 2.0: A Native Chinese-English Bilingual Image Generation Foundation Model](https://arxiv.org/abs/2503.07703v1)** (Published: 2025-03-10)  
   Authors: Lixue Gong, Xiaoxia Hou, Fanshi Li, Liang Li, Xiaochen Lian, Fei Liu, Liyang Liu, Wei Liu, Wei Lu, Yichun Shi, Shiqi Sun, Yu Tian, Zhi Tian, Peng Wang, Xun Wang, Ye Wang, Guofeng Wu, Jie Wu, Xin Xia, Xuefeng Xiao, Linjie Yang, Zhonghua Zhai, Xinyu Zhang, Qi Zhang, Yuwei Zhang, Shijia Zhao, Jianchao Yang, Weilin Huang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.07703v1.pdf)  
-  Keywords: image editing, image generation, FLUX  
+  Keywords: FLUX, image editing, image generation  
 - **[TIDE : Temporal-Aware Sparse Autoencoders for Interpretable Diffusion Transformers in Image Generation](https://arxiv.org/abs/2503.07050v1)** (Published: 2025-03-10)  
   Authors: Victor Shea-Jay Huang, Le Zhuo, Yi Xin, Zhaokai Wang, Peng Gao, Hongsheng Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.07050v1.pdf)  
-  Keywords: Control, diffusion transformer, image editing, image generation  
+  Keywords: diffusion transformer, Control, image editing, image generation  
 - **[X2I: Seamless Integration of Multimodal Understanding into Diffusion Transformer via Attention Distillation](https://arxiv.org/abs/2503.06134v2)** (Published: 2025-03-08)  
   Authors: Jian Ma, Qirong Peng, Xu Guo, Chen Chen, Haonan Lu, Zhenyu Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.06134v2.pdf) | [![GitHub](https://img.shields.io/github/stars/OPPO-Mente-Lab/X2I?style=social)](https://github.com/OPPO-Mente-Lab/X2I)  
-  Keywords: text-to-image, image editing, image generation, diffusion transformer, image to image, Control  
+  Keywords: Control, diffusion transformer, image to image, image generation, image editing, text-to-image  
 - **[AnyRefill: A Unified, Data-Efficient Framework for Left-Prompt-Guided Vision Tasks](https://arxiv.org/abs/2502.11158v2)** (Published: 2025-02-16)  
   Authors: Ming Xie, Chenjie Cao, Yunuo Cai, Xiangyang Xue, Yu-Gang Jiang, Yanwei Fu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2502.11158v2.pdf)  
-  Keywords: image editing, diffusion transformer, text-to-image  
+  Keywords: diffusion transformer, image editing, text-to-image  
 - **[EliGen: Entity-Level Controlled Image Generation with Regional Attention](https://arxiv.org/abs/2501.01097v3)** (Published: 2025-01-02)  
   Authors: Hong Zhang, Zhongjie Duan, Xingjun Wang, Yingda Chen, Yu Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2501.01097v3.pdf) | [![GitHub](https://img.shields.io/github/stars/modelscope/DiffSynth-Studio.git?style=social)](https://github.com/modelscope/DiffSynth-Studio.git)  
-  Keywords: text-to-image, image inpainting, image generation, diffusion transformer, Control  
+  Keywords: Control, image inpainting, diffusion transformer, image generation, text-to-image  
 - **[Context Canvas: Enhancing Text-to-Image Diffusion Models with Knowledge Graph-Based RAG](https://arxiv.org/abs/2412.09614v1)** (Published: 2024-12-12)  
   Authors: Kavana Venkatesh, Yusuf Dalva, Ismini Lourentzou, Pinar Yanardag  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.09614v1.pdf)  
-  Keywords: image editing, text-to-image, Control, FLUX  
+  Keywords: FLUX, Control, image editing, text-to-image  
 - **[FluxSpace: Disentangled Semantic Editing in Rectified Flow Transformers](https://arxiv.org/abs/2412.09611v1)** (Published: 2024-12-12)  
   Authors: Yusuf Dalva, Kavana Venkatesh, Pinar Yanardag  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2412.09611v1.pdf)  
-  Keywords: image editing, image generation, FLUX, rectified flow, Control  
+  Keywords: FLUX, Control, image generation, image editing, rectified flow  
 - **[AMO Sampler: Enhancing Text Rendering with Overshooting](https://arxiv.org/abs/2411.19415v2)** (Published: 2024-11-28)  
   Authors: Xixi Hu, Keyang Xu, Bo Liu, Qiang Liu, Hongliang Fei  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.19415v2.pdf) | [![GitHub](https://img.shields.io/github/stars/hxixixh/amo-release?style=social)](https://github.com/hxixixh/amo-release)  
-  Keywords: text-to-image, image generation, FLUX, rectified flow, Control  
+  Keywords: FLUX, Control, image generation, rectified flow, text-to-image  
 - **[Prediction with Action: Visual Policy Learning via Joint Denoising Process](https://arxiv.org/abs/2411.18179v1)** (Published: 2024-11-27)  
   Authors: Yanjiang Guo, Yucheng Hu, Jianke Zhang, Yen-Jen Wang, Xiaoyu Chen, Chaochao Lu, Jianyu Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.18179v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://sites.google.com/view/pad-paper)  
-  Keywords: Control, diffusion transformer, image editing, image generation  
+  Keywords: diffusion transformer, Control, image editing, image generation  
 - **[HeadRouter: A Training-free Image Editing Framework for MM-DiTs by Adaptively Routing Attention Heads](https://arxiv.org/abs/2411.15034v1)** (Published: 2024-11-22)  
   Authors: Yu Xu, Fan Tang, Juan Cao, Yuxin Zhang, Xiaoyu Kong, Jintao Li, Oliver Deussen, Tong-Yee Lee  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.15034v1.pdf)  
@@ -141,23 +141,23 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Stable Flow: Vital Layers for Training-Free Image Editing](https://arxiv.org/abs/2411.14430v2)** (Published: 2024-11-21)  
   Authors: Omri Avrahami, Or Patashnik, Ohad Fried, Egor Nemchinov, Kfir Aberman, Dani Lischinski, Daniel Cohen-Or  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.14430v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://omriavrahami.com/stable-flow)  
-  Keywords: diffusion transformer, image editing, Control, inversion  
+  Keywords: diffusion transformer, Control, image editing, inversion  
 - **[Oscillation Inversion: Understand the structure of Large Flow Model through the Lens of Inversion Method](https://arxiv.org/abs/2411.11135v1)** (Published: 2024-11-17)  
   Authors: Yan Zheng, Zhenxiao Liang, Xiaoyan Cong, Lanqing guo, Yuehao Wang, Peihao Wang, Zhangyang Wang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.11135v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://yanyanzheng96.github.io/oscillation_inversion/}{this)  
-  Keywords: image editing, text-to-image, inversion, FLUX, rectified flow  
+  Keywords: FLUX, inversion, image editing, rectified flow, text-to-image  
 - **[Latent Space Disentanglement in Diffusion Transformers Enables Precise Zero-shot Semantic Editing](https://arxiv.org/abs/2411.08196v1)** (Published: 2024-11-12)  
   Authors: Zitao Shuai, Chenwei Wu, Zhengxu Tang, Bowen Song, Liyue Shen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.08196v1.pdf)  
-  Keywords: Control, diffusion transformer, image editing, image generation  
+  Keywords: diffusion transformer, Control, image editing, image generation  
 - **[Taming Rectified Flow for Inversion and Editing](https://arxiv.org/abs/2411.04746v3)** (Published: 2024-11-07)  
   Authors: Jiangshan Wang, Junfu Pu, Zhongang Qi, Jiayi Guo, Yue Ma, Nisha Huang, Yuxin Chen, Xiu Li, Ying Shan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.04746v3.pdf) | [![GitHub](https://img.shields.io/github/stars/wangjiangshan0725/RF-Solver-Edit?style=social)](https://github.com/wangjiangshan0725/RF-Solver-Edit)  
-  Keywords: inversion, FLUX, video editing, rectified flow, video generation, diffusion transformer  
+  Keywords: FLUX, diffusion transformer, inversion, video editing, rectified flow, video generation  
 - **[DiT4Edit: Diffusion Transformer for Image Editing](https://arxiv.org/abs/2411.03286v2)** (Published: 2024-11-05)  
   Authors: Kunyu Feng, Yue Ma, Bingyuan Wang, Chenyang Qi, Haozhe Chen, Qifeng Chen, Zeyu Wang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2411.03286v2.pdf)  
-  Keywords: image editing, inversion, image generation, diffusion transformer, Control  
+  Keywords: Control, diffusion transformer, inversion, image generation, image editing  
 - **[FiTv2: Scalable and Improved Flexible Vision Transformer for Diffusion Model](https://arxiv.org/abs/2410.13925v1)** (Published: 2024-10-17)  
   Authors: ZiDong Wang, Zeyu Lu, Di Huang, Cai Zhou, Wanli Ouyang, and Lei Bai  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2410.13925v1.pdf) | [![GitHub](https://img.shields.io/github/stars/whlzy/FiT?style=social)](https://github.com/whlzy/FiT)  
@@ -165,19 +165,19 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Semantic Image Inversion and Editing using Rectified Stochastic Differential Equations](https://arxiv.org/abs/2410.10792v1)** (Published: 2024-10-14)  
   Authors: Litu Rout, Yujia Chen, Nataniel Ruiz, Constantine Caramanis, Sanjay Shakkottai, Wen-Sheng Chu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2410.10792v1.pdf)  
-  Keywords: image editing, inversion, FLUX, rectified flow, Control  
+  Keywords: FLUX, Control, inversion, image editing, rectified flow  
 - **[Effective Diffusion Transformer Architecture for Image Super-Resolution](https://arxiv.org/abs/2409.19589v1)** (Published: 2024-09-29)  
   Authors: Kun Cheng, Lei Yu, Zhijun Tu, Xiao He, Liyu Chen, Yong Guo, Mingrui Zhu, Nannan Wang, Xinbo Gao, Jie Hu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2409.19589v1.pdf)  
-  Keywords: diffusion transformer, image generation, image super-resolution  
+  Keywords: diffusion transformer, image super-resolution, image generation  
 - **[PixWizard: Versatile Image-to-Image Visual Assistant with Open-Language Instructions](https://arxiv.org/abs/2409.15278v4)** (Published: 2024-09-23)  
   Authors: Weifeng Lin, Xinyu Wei, Renrui Zhang, Le Zhuo, Shitian Zhao, Siyuan Huang, Huan Teng, Junlin Xie, Yu Qiao, Peng Gao, Hongsheng Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2409.15278v4.pdf) | [![GitHub](https://img.shields.io/github/stars/AFeng-x/PixWizard?style=social)](https://github.com/AFeng-x/PixWizard)  
-  Keywords: text-to-image, image editing, Controllable, image generation, diffusion transformer, Control  
+  Keywords: Control, diffusion transformer, Controllable, image generation, image editing, text-to-image  
 - **[Latent Space Disentanglement in Diffusion Transformers Enables Zero-shot Fine-grained Semantic Editing](https://arxiv.org/abs/2408.13335v1)** (Published: 2024-08-23)  
   Authors: Zitao Shuai, Chenwei Wu, Zhengxu Tang, Bowen Song, Liyue Shen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2408.13335v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://anonymous.com/anonymous/EMS-Benchmark,)  
-  Keywords: image editing, diffusion transformer, text-to-image, Control  
+  Keywords: diffusion transformer, Control, image editing, text-to-image  
 - **[Lazy Diffusion Transformer for Interactive Image Editing](https://arxiv.org/abs/2404.12382v1)** (Published: 2024-04-18)  
   Authors: Yotam Nitzan, Zongze Wu, Richard Zhang, Eli Shechtman, Daniel Cohen-Or, Taesung Park, Michaël Gharbi  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2404.12382v1.pdf)  
@@ -185,7 +185,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Lightning-Fast Image Inversion and Editing for Text-to-Image Diffusion Models](https://arxiv.org/abs/2312.12540v5)** (Published: 2023-12-19)  
   Authors: Dvir Samuel, Barak Meiri, Haggai Maron, Yoad Tewel, Nir Darshan, Shai Avidan, Gal Chechik, Rami Ben-Ari  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2312.12540v5.pdf)  
-  Keywords: image editing, text-to-image, inversion, FLUX  
+  Keywords: FLUX, image editing, text-to-image, inversion  
 
 ### Image Generation
 
@@ -194,7 +194,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[MMMG: A Massive, Multidisciplinary, Multi-Tier Generation Benchmark for Text-to-Image Reasoning](https://arxiv.org/abs/2506.10963v2)** (Published: 2025-06-12)  
   Authors: Yuxuan Luo, Yuhui Yuan, Junwen Chen, Haonan Cai, Ziyi Yue, Yuwei Yang, Fatima Zohra Daha, Ji Li, Zhouhui Lian  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.10963v2.pdf)  
-  Keywords: text-to-image, image generation, FLUX  
+  Keywords: FLUX, text-to-image, image generation  
 - **[ReSim: Reliable World Simulation for Autonomous Driving](https://arxiv.org/abs/2506.09981v1)** (Published: 2025-06-11)  
   Authors: Jiazhi Yang, Kashyap Chitta, Shenyuan Gao, Long Chen, Yuqian Shao, Xiaosong Jia, Hongyang Li, Andreas Geiger, Xiangyu Yue, Li Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.09981v1.pdf)  
@@ -206,35 +206,35 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[HunyuanVideo-HOMA: Generic Human-Object Interaction in Multimodal Driven Human Animation](https://arxiv.org/abs/2506.08797v1)** (Published: 2025-06-10)  
   Authors: Ziyao Huang, Zixiang Zhou, Juan Cao, Yifeng Ma, Yi Chen, Zejing Rao, Zhiyong Xu, Hongmei Wang, Qin Lin, Yuan Zhou, Qinglin Lu, Fan Tang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.08797v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://anonymous.4open.science/w/homa-page-0FBE/.)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[MADFormer: Mixed Autoregressive and Diffusion Transformers for Continuous Image Generation](https://arxiv.org/abs/2506.07999v1)** (Published: 2025-06-09)  
   Authors: Junhao Chen, Yulia Tsvetkov, Xiaochuang Han  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.07999v1.pdf)  
-  Keywords: Control, diffusion transformer, image generation  
+  Keywords: diffusion transformer, Control, image generation  
 - **[FullDiT2: Efficient In-Context Conditioning for Video Diffusion Transformers](https://arxiv.org/abs/2506.04213v2)** (Published: 2025-06-04)  
   Authors: Xuanhua He, Quande Liu, Zixuan Ye, Weicai Ye, Qiulin Wang, Xintao Wang, Qifeng Chen, Pengfei Wan, Di Zhang, Kun Gai  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.04213v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://fulldit2.github.io/}{https://fulldit2.github.io/}.)  
-  Keywords: diffusion transformer, video generation, Control, video editing  
+  Keywords: diffusion transformer, Control, video editing, video generation  
 - **[Image Editing As Programs with Diffusion Models](https://arxiv.org/abs/2506.04158v1)** (Published: 2025-06-04)  
   Authors: Yujia Hu, Songhua Liu, Zhenxiong Tan, Xingyi Yang, Xinchao Wang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.04158v1.pdf) | [![GitHub](https://img.shields.io/github/stars/YujiaHu1109/IEAP?style=social)](https://github.com/YujiaHu1109/IEAP)  
-  Keywords: image editing, diffusion transformer, text-to-image, image generation  
+  Keywords: diffusion transformer, image editing, text-to-image, image generation  
 - **[EmoArt: A Multidimensional Dataset for Emotion-Aware Artistic Generation](https://arxiv.org/abs/2506.03652v1)** (Published: 2025-06-04)  
   Authors: Cheng Zhang, Hongxia xie, Bin Wen, Songhan Zuo, Ruoxuan Zhang, Wen-huang Cheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.03652v1.pdf)  
-  Keywords: text-to-image, image generation, FLUX  
+  Keywords: FLUX, text-to-image, image generation  
 - **[OmniV2V: Versatile Video Generation and Editing via Dynamic Content Manipulation](https://arxiv.org/abs/2506.01801v1)** (Published: 2025-06-02)  
   Authors: Sen Liang, Zhentao Yu, Zhengguang Zhou, Teng Hu, Hongmei Wang, Yi Chen, Qin Lin, Yuan Zhou, Xin Li, Qinglin Lu, Zhibo Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.01801v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[Evaluating Robot Policies in a World Model](https://arxiv.org/abs/2506.00613v1)** (Published: 2025-05-31)  
   Authors: Julian Quevedo, Percy Liang, Sherry Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.00613v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Seg2Any: Open-set Segmentation-Mask-to-Image Generation with Precise Shape and Semantic Control](https://arxiv.org/abs/2506.00596v1)** (Published: 2025-05-31)  
   Authors: Danfeng li, Hui Zhang, Sheng Wang, Jiacheng Li, Zuxuan Wu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.00596v1.pdf)  
-  Keywords: text-to-image, image generation, FLUX, diffusion transformer, Control  
+  Keywords: FLUX, Control, diffusion transformer, image generation, text-to-image  
 - **[Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation](https://arxiv.org/abs/2506.00329v1)** (Published: 2025-05-31)  
   Authors: Muhammad Adnan, Nithesh Kurella, Akhil Arunkumar, Prashant J. Nair  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.00329v1.pdf) | [![GitHub](https://img.shields.io/github/stars/STAR-Laboratory/foresight?style=social)](https://github.com/STAR-Laboratory/foresight)  
@@ -242,11 +242,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Interpreting Large Text-to-Image Diffusion Models with Dictionary Learning](https://arxiv.org/abs/2505.24360v2)** (Published: 2025-05-30)  
   Authors: Stepan Shabalin, Ayush Panda, Dmitrii Kharlapenko, Abdur Raheem Ali, Yixiong Hao, Arthur Conmy  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.24360v2.pdf)  
-  Keywords: Control, text-to-image, image generation, FLUX  
+  Keywords: FLUX, Control, text-to-image, image generation  
 - **[LoRAShop: Training-Free Multi-Concept Image Generation and Editing with Rectified Flow Transformers](https://arxiv.org/abs/2505.23758v1)** (Published: 2025-05-29)  
   Authors: Yusuf Dalva, Hidir Yesiltepe, Pinar Yanardag  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23758v1.pdf)  
-  Keywords: image editing, FLUX, rectified flow, diffusion transformer, image generation  
+  Keywords: FLUX, diffusion transformer, image generation, rectified flow, image editing  
 - **[Muddit: Liberating Generation Beyond Text-to-Image with a Unified Discrete Diffusion Model](https://arxiv.org/abs/2505.23606v1)** (Published: 2025-05-29)  
   Authors: Qingyu Shi, Jinbin Bai, Zhuoran Zhao, Wenhao Chai, Kaidong Yu, Jianzong Wu, Shuangyong Song, Yunhai Tong, Xiangtai Li, Xuelong Li, Shuicheng Yan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.23606v1.pdf)  
@@ -254,7 +254,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[HiDream-I1: A High-Efficient Image Generative Foundation Model with Sparse Diffusion Transformer](https://arxiv.org/abs/2505.22705v1)** (Published: 2025-05-28)  
   Authors: Qi Cai, Jingwen Chen, Yang Chen, Yehao Li, Fuchen Long, Yingwei Pan, Zhaofan Qiu, Yiheng Zhang, Fengbin Gao, Peihan Xu, Yimeng Wang, Kai Yu, Wenxuan Chen, Ziwei Feng, Zijian Gong, Jianzhuang Pan, Yi Peng, Rui Tian, Siyu Wang, Bo Zhao, Ting Yao, Tao Mei  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22705v1.pdf) | [![GitHub](https://img.shields.io/github/stars/HiDream-ai/HiDream-I1?style=social)](https://github.com/HiDream-ai/HiDream-I1) | [![Project](https://img.shields.io/badge/-Project-blue)](https://vivago.ai/studio.)  
-  Keywords: image editing, diffusion transformer, text-to-image, image generation  
+  Keywords: diffusion transformer, image editing, text-to-image, image generation  
 - **[Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers](https://arxiv.org/abs/2505.22167v1)** (Published: 2025-05-28)  
   Authors: Weilun Feng, Chuanguang Yang, Haotong Qin, Xiangqi Li, Yu Wang, Zhulin An, Libo Huang, Boyu Diao, Zixiang Zhao, Yongjun Xu, Michele Magno  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22167v1.pdf) | [![GitHub](https://img.shields.io/github/stars/cantbebetter2/Q-VDiT?style=social)](https://github.com/cantbebetter2/Q-VDiT)  
@@ -266,7 +266,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Frame In-N-Out: Unbounded Controllable Image-to-Video Generation](https://arxiv.org/abs/2505.21491v1)** (Published: 2025-05-27)  
   Authors: Boyang Wang, Xuweiyi Chen, Matheus Gadelha, Zezhou Cheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.21491v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[Hierarchical Masked Autoregressive Models with Low-Resolution Token Pivots](https://arxiv.org/abs/2505.20288v1)** (Published: 2025-05-26)  
   Authors: Guangting Zheng, Yehao Li, Yingwei Pan, Jiajun Deng, Ting Yao, Yanyong Zhang, Tao Mei  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.20288v1.pdf) | [![GitHub](https://img.shields.io/github/stars/HiDream-ai/himar?style=social)](https://github.com/HiDream-ai/himar)  
@@ -274,15 +274,15 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Dynamic-I2V: Exploring Image-to-Video Generation Models via Multimodal LLM](https://arxiv.org/abs/2505.19901v3)** (Published: 2025-05-26)  
   Authors: Peng Liu, Xiaoming Ren, Fengkai Liu, Qingsong Xie, Quanlong Zheng, Yanhao Zhang, Haonan Lu, Yujiu Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.19901v3.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[MMIG-Bench: Towards Comprehensive and Explainable Evaluation of Multi-Modal Image Generation Models](https://arxiv.org/abs/2505.19415v2)** (Published: 2025-05-26)  
   Authors: Hang Hua, Ziyun Zeng, Yizhi Song, Yunlong Tang, Liu He, Daniel Aliaga, Wei Xiong, Jiebo Luo  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.19415v2.pdf)  
-  Keywords: text-to-image, image generation, FLUX  
+  Keywords: FLUX, text-to-image, image generation  
 - **[Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation](https://arxiv.org/abs/2505.18875v1)** (Published: 2025-05-24)  
   Authors: Shuo Yang, Haocheng Xi, Yilong Zhao, Muyang Li, Jintao Zhang, Han Cai, Yujun Lin, Xiuyu Li, Chenfeng Xu, Kelly Peng, Jianfei Chen, Song Han, Kurt Keutzer, Ion Stoica  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.18875v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Mod-Adapter: Tuning-Free and Versatile Multi-concept Personalization via Modulation Adapter](https://arxiv.org/abs/2505.18612v1)** (Published: 2025-05-24)  
   Authors: Weizhi Zhong, Huan Yang, Zheng Liu, Huiguo He, Zijian He, Xuesong Niu, Di Zhang, Guanbin Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.18612v1.pdf)  
@@ -294,7 +294,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Interspatial Attention for Efficient 4D Human Video Generation](https://arxiv.org/abs/2505.15800v2)** (Published: 2025-05-21)  
   Authors: Ruizhi Shao, Yinghao Xu, Yujun Shen, Ceyuan Yang, Yang Zheng, Changan Chen, Yebin Liu, Gordon Wetzstein  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15800v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://dsaurus.github.io/isa4d/.)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[Scaling Diffusion Transformers Efficiently via $μ$P](https://arxiv.org/abs/2505.15270v1)** (Published: 2025-05-21)  
   Authors: Chenyu Zheng, Xinyu Zhang, Rongzhen Wang, Wei Huang, Zhi Tian, Weilin Huang, Jun Zhu, Chongxuan Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15270v1.pdf)  
@@ -302,7 +302,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[LMP: Leveraging Motion Prior in Zero-Shot Video Generation with Diffusion Transformer](https://arxiv.org/abs/2505.14167v1)** (Published: 2025-05-20)  
   Authors: Changgu Chen, Xiaoyan Yang, Junwei Shu, Changbo Wang, Yang Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14167v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://vpx-ecnu.github.io/LMP-Website/)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Swin DiT: Diffusion Transformer using Pseudo Shifted Windows](https://arxiv.org/abs/2505.13219v2)** (Published: 2025-05-19)  
   Authors: Jiafu Wu, Yabiao Wang, Jian Li, Jinlong Peng, Yun Cao, Chengjie Wang, Jiangning Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.13219v2.pdf) | [![GitHub](https://img.shields.io/github/stars/wujiafu007/Swin-DiT?style=social)](https://github.com/wujiafu007/Swin-DiT)  
@@ -314,7 +314,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Exploring the Deep Fusion of Large Language Models and Diffusion Transformers for Text-to-Image Synthesis](https://arxiv.org/abs/2505.10046v1)** (Published: 2025-05-15)  
   Authors: Bingda Tang, Boyang Zheng, Xichen Pan, Sayak Paul, Saining Xie  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.10046v1.pdf)  
-  Keywords: Control, diffusion transformer, text-to-image, image generation  
+  Keywords: diffusion transformer, Control, text-to-image, image generation  
 - **[BLIP3-o: A Family of Fully Open Unified Multimodal Models-Architecture, Training and Dataset](https://arxiv.org/abs/2505.09568v1)** (Published: 2025-05-14)  
   Authors: Jiuhai Chen, Zhiyang Xu, Xichen Pan, Yushi Hu, Can Qin, Tom Goldstein, Lifu Huang, Tianyi Zhou, Saining Xie, Silvio Savarese, Le Xue, Caiming Xiong, Ran Xu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.09568v1.pdf)  
@@ -326,7 +326,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818v1)** (Published: 2025-05-12)  
   Authors: Zeyue Xue, Jie Wu, Yu Gao, Fangyuan Kong, Lingting Zhu, Mengzhao Chen, Zhiheng Liu, Wei Liu, Qiushan Guo, Weilin Huang, Ping Luo  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.07818v1.pdf)  
-  Keywords: rectified flow, video generation, text-to-image, FLUX  
+  Keywords: FLUX, rectified flow, text-to-image, video generation  
 - **[Accelerating Diffusion Transformer via Increment-Calibrated Caching with Channel-Aware Singular Value Decomposition](https://arxiv.org/abs/2505.05829v1)** (Published: 2025-05-09)  
   Authors: Zhiyuan Chen, Keyi Li, Yifan Jia, Le Ye, Yufei Ma  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.05829v1.pdf) | [![GitHub](https://img.shields.io/github/stars/ccccczzy/icc?style=social)](https://github.com/ccccczzy/icc)  
@@ -334,19 +334,19 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Lay-Your-Scene: Natural Scene Layout Generation with Diffusion Transformers](https://arxiv.org/abs/2505.04718v1)** (Published: 2025-05-07)  
   Authors: Divyansh Srivastava, Xiang Zhang, He Wen, Chenru Wen, Zhuowen Tu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.04718v1.pdf)  
-  Keywords: image editing, Controllable, image generation, diffusion transformer, Control  
+  Keywords: Control, diffusion transformer, Controllable, image generation, image editing  
 - **[Deepfakes on Demand: the rise of accessible non-consensual deepfake image generators](https://arxiv.org/abs/2505.03859v1)** (Published: 2025-05-06)  
   Authors: Will Hawkins, Chris Russell, Brent Mittelstadt  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.03859v1.pdf)  
-  Keywords: text-to-image, FLUX  
+  Keywords: FLUX, text-to-image  
 - **[DualReal: Adaptive Joint Training for Lossless Identity-Motion Fusion in Video Customization](https://arxiv.org/abs/2505.02192v1)** (Published: 2025-05-04)  
   Authors: Wenchuan Wang, Mengqi Huang, Yijing Tu, Zhendong Mao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.02192v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[JointDiT: Enhancing RGB-Depth Joint Modeling with Diffusion Transformers](https://arxiv.org/abs/2505.00482v1)** (Published: 2025-05-01)  
   Authors: Kwon Byung-Ki, Qi Dai, Lee Hyoseok, Chong Luo, Tae-Hyun Oh  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.00482v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://byungki-k.github.io/JointDiT/.)  
-  Keywords: Control, diffusion transformer, image generation  
+  Keywords: diffusion transformer, Control, image generation  
 - **[Can We Achieve Efficient Diffusion without Self-Attention? Distilling Self-Attention into Convolutions](https://arxiv.org/abs/2504.21292v1)** (Published: 2025-04-30)  
   Authors: ZiYi Dong, Chengxing Zhou, Weijian Deng, Pengxu Wei, Xiangyang Ji, Liang Lin  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.21292v1.pdf)  
@@ -354,7 +354,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer](https://arxiv.org/abs/2504.19614v1)** (Published: 2025-04-28)  
   Authors: Junpeng Jiang, Gangyi Hong, Miao Zhang, Hengtong Hu, Kun Zhan, Rui Shao, Liqiang Nie  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.19614v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Physics-based super-resolved simulation of 3D elastic wave propagation adopting scalable Diffusion Transformer](https://arxiv.org/abs/2504.17308v1)** (Published: 2025-04-24)  
   Authors: Hugo Gabrielidis, Filippo Gatti, Stéphane Vialle  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.17308v1.pdf)  
@@ -366,7 +366,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Acquire and then Adapt: Squeezing out Text-to-Image Model for Image Restoration](https://arxiv.org/abs/2504.15159v1)** (Published: 2025-04-21)  
   Authors: Junyuan Deng, Xinyi Wu, Yongxing Yang, Congchao Zhu, Song Wang, Zhenyao Wu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.15159v1.pdf)  
-  Keywords: text-to-image, image generation, FLUX, diffusion transformer, Control  
+  Keywords: FLUX, Control, diffusion transformer, image generation, text-to-image  
 - **[Text-Audio-Visual-conditioned Diffusion Model for Video Saliency Prediction](https://arxiv.org/abs/2504.14267v1)** (Published: 2025-04-19)  
   Authors: Li Yu, Xuanzhe Sun, Wei Zhou, Moncef Gabbouj  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.14267v1.pdf)  
@@ -378,11 +378,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[InstantCharacter: Personalize Any Characters with a Scalable Diffusion Transformer Framework](https://arxiv.org/abs/2504.12395v1)** (Published: 2025-04-16)  
   Authors: Jiale Tao, Yanbing Zhang, Qixun Wang, Yiji Cheng, Haofan Wang, Xu Bai, Zhengguang Zhou, Ruihuang Li, Linqing Wang, Chunyu Wang, Qin Lin, Qinglin Lu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.12395v1.pdf) | [![GitHub](https://img.shields.io/github/stars/Tencent/InstantCharacter?style=social)](https://github.com/Tencent/InstantCharacter)  
-  Keywords: Control, diffusion transformer, image generation, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, image generation  
 - **[Using LLMs as prompt modifier to avoid biases in AI image generators](https://arxiv.org/abs/2504.11104v1)** (Published: 2025-04-15)  
   Authors: René Peinl  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.11104v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://iisys-hof.github.io/llm-prompt-img-gen/)  
-  Keywords: text-to-image, image generation, FLUX  
+  Keywords: FLUX, text-to-image, image generation  
 - **[D$^2$iT: Dynamic Diffusion Transformer for Accurate Image Generation](https://arxiv.org/abs/2504.09454v1)** (Published: 2025-04-13)  
   Authors: Weinan Jia, Mengqi Huang, Nan Chen, Lei Zhang, Zhendong Mao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.09454v1.pdf) | [![GitHub](https://img.shields.io/github/stars/jiawn-creator/Dynamic-DiT?style=social)](https://github.com/jiawn-creator/Dynamic-DiT)  
@@ -390,7 +390,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Flux Already Knows -- Activating Subject-Driven Image Generation without Training](https://arxiv.org/abs/2504.11478v2)** (Published: 2025-04-12)  
   Authors: Hao Kang, Stathi Fotiadis, Liming Jiang, Qing Yan, Yumin Jia, Zichuan Liu, Min Jin Chong, Xin Lu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.11478v2.pdf)  
-  Keywords: text-to-image, image generation, FLUX  
+  Keywords: FLUX, text-to-image, image generation  
 
 ### Video Related
 
@@ -407,7 +407,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[HunyuanVideo-HOMA: Generic Human-Object Interaction in Multimodal Driven Human Animation](https://arxiv.org/abs/2506.08797v1)** (Published: 2025-06-10)  
   Authors: Ziyao Huang, Zixiang Zhou, Juan Cao, Yifeng Ma, Yi Chen, Zejing Rao, Zhiyong Xu, Hongmei Wang, Qin Lin, Yuan Zhou, Qinglin Lu, Fan Tang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.08797v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://anonymous.4open.science/w/homa-page-0FBE/.)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Astraea: A GPU-Oriented Token-wise Acceleration Framework for Video Diffusion Transformers](https://arxiv.org/abs/2506.05096v3)** (Published: 2025-06-05)  
   Authors: Haosong Liu, Yuge Cheng, Zihan Liu, Aiyue Chen, Jing Lin, Yiwu Yao, Chen Chen, Jingwen Leng, Yu Feng, Minyi Guo  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.05096v3.pdf)  
@@ -419,11 +419,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[FullDiT2: Efficient In-Context Conditioning for Video Diffusion Transformers](https://arxiv.org/abs/2506.04213v2)** (Published: 2025-06-04)  
   Authors: Xuanhua He, Quande Liu, Zixuan Ye, Weicai Ye, Qiulin Wang, Xintao Wang, Qifeng Chen, Pengfei Wan, Di Zhang, Kun Gai  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.04213v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://fulldit2.github.io/}{https://fulldit2.github.io/}.)  
-  Keywords: diffusion transformer, video generation, Control, video editing  
+  Keywords: diffusion transformer, Control, video editing, video generation  
 - **[Chipmunk: Training-Free Acceleration of Diffusion Transformers with Dynamic Column-Sparse Deltas](https://arxiv.org/abs/2506.03275v1)** (Published: 2025-06-03)  
   Authors: Austin Silveria, Soham V. Govande, Daniel Y. Fu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.03275v1.pdf)  
-  Keywords: diffusion transformer, video generation, FLUX  
+  Keywords: diffusion transformer, FLUX, video generation  
 - **[Sparse-vDiT: Unleashing the Power of Sparse Attention to Accelerate Video Diffusion Transformers](https://arxiv.org/abs/2506.03065v1)** (Published: 2025-06-03)  
   Authors: Pengtao Chen, Xianfang Zeng, Maosen Zhao, Peng Ye, Mingzhu Shen, Wei Cheng, Gang Yu, Tao Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.03065v1.pdf)  
@@ -431,7 +431,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[OmniV2V: Versatile Video Generation and Editing via Dynamic Content Manipulation](https://arxiv.org/abs/2506.01801v1)** (Published: 2025-06-02)  
   Authors: Sen Liang, Zhentao Yu, Zhengguang Zhou, Teng Hu, Hongmei Wang, Yi Chen, Qin Lin, Yuan Zhou, Xin Li, Qinglin Lu, Zhibo Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.01801v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[LongDWM: Cross-Granularity Distillation for Building a Long-Term Driving World Model](https://arxiv.org/abs/2506.01546v1)** (Published: 2025-06-02)  
   Authors: Xiaodong Wang, Zhirong Wu, Peixi Peng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.01546v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://Wang-Xiaodong1899.github.io/longdwm/.)  
@@ -443,7 +443,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Evaluating Robot Policies in a World Model](https://arxiv.org/abs/2506.00613v1)** (Published: 2025-05-31)  
   Authors: Julian Quevedo, Percy Liang, Sherry Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.00613v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Foresight: Adaptive Layer Reuse for Accelerated and High-Quality Text-to-Video Generation](https://arxiv.org/abs/2506.00329v1)** (Published: 2025-05-31)  
   Authors: Muhammad Adnan, Nithesh Kurella, Akhil Arunkumar, Prashant J. Nair  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2506.00329v1.pdf) | [![GitHub](https://img.shields.io/github/stars/STAR-Laboratory/foresight?style=social)](https://github.com/STAR-Laboratory/foresight)  
@@ -451,7 +451,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[STORK: Improving the Fidelity of Mid-NFE Sampling for Diffusion and Flow Matching Models](https://arxiv.org/abs/2505.24210v1)** (Published: 2025-05-30)  
   Authors: Zheng Tan, Weizhen Wang, Andrea L. Bertozzi, Ernest K. Ryu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.24210v1.pdf) | [![GitHub](https://img.shields.io/github/stars/ZT220501/STORK?style=social)](https://github.com/ZT220501/STORK)  
-  Keywords: video generation, FLUX  
+  Keywords: FLUX, video generation  
 - **[Q-VDiT: Towards Accurate Quantization and Distillation of Video-Generation Diffusion Transformers](https://arxiv.org/abs/2505.22167v1)** (Published: 2025-05-28)  
   Authors: Weilun Feng, Chuanguang Yang, Haotong Qin, Xiangqi Li, Yu Wang, Zhulin An, Libo Huang, Boyu Diao, Zixiang Zhao, Yongjun Xu, Michele Magno  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.22167v1.pdf) | [![GitHub](https://img.shields.io/github/stars/cantbebetter2/Q-VDiT?style=social)](https://github.com/cantbebetter2/Q-VDiT)  
@@ -459,7 +459,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Frame In-N-Out: Unbounded Controllable Image-to-Video Generation](https://arxiv.org/abs/2505.21491v1)** (Published: 2025-05-27)  
   Authors: Boyang Wang, Xuweiyi Chen, Matheus Gadelha, Zezhou Cheng  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.21491v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[Minute-Long Videos with Dual Parallelisms](https://arxiv.org/abs/2505.21070v2)** (Published: 2025-05-27)  
   Authors: Zeqing Wang, Bowen Zheng, Xingyi Yang, Zhenxiong Tan, Yuecong Xu, Xinchao Wang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.21070v2.pdf)  
@@ -471,7 +471,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Dynamic-I2V: Exploring Image-to-Video Generation Models via Multimodal LLM](https://arxiv.org/abs/2505.19901v3)** (Published: 2025-05-26)  
   Authors: Peng Liu, Xiaoming Ren, Fengkai Liu, Qingsong Xie, Quanlong Zheng, Yanhao Zhang, Haonan Lu, Yujiu Yang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.19901v3.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[The Role of Video Generation in Enhancing Data-Limited Action Understanding](https://arxiv.org/abs/2505.19495v1)** (Published: 2025-05-26)  
   Authors: Wei Li, Dezhao Luo, Dongbao Yang, Zhenhang Li, Weiping Wang, Yu Zhou  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.19495v1.pdf)  
@@ -479,11 +479,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[SRDiffusion: Accelerate Video Diffusion Inference via Sketching-Rendering Cooperation](https://arxiv.org/abs/2505.19151v1)** (Published: 2025-05-25)  
   Authors: Shenggan Cheng, Yuanxin Wei, Lansong Diao, Yong Liu, Bujiao Chen, Lianghua Huang, Yu Liu, Wenyuan Yu, Jiangsu Du, Wei Lin, Yang You  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.19151v1.pdf)  
-  Keywords: diffusion transformer, video generation, video editing  
+  Keywords: diffusion transformer, video editing, video generation  
 - **[Sparse VideoGen2: Accelerate Video Generation with Sparse Attention via Semantic-Aware Permutation](https://arxiv.org/abs/2505.18875v1)** (Published: 2025-05-24)  
   Authors: Shuo Yang, Haocheng Xi, Yilong Zhao, Muyang Li, Jintao Zhang, Han Cai, Yujun Lin, Xiuyu Li, Chenfeng Xu, Kelly Peng, Jianfei Chen, Song Han, Kurt Keutzer, Ion Stoica  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.18875v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[VORTA: Efficient Video Diffusion via Routing Sparse Attention](https://arxiv.org/abs/2505.18809v1)** (Published: 2025-05-24)  
   Authors: Wenhao Sun, Rong-Cheng Tu, Yifu Ding, Zhao Jin, Jingyi Liao, Shunyu Liu, Dacheng Tao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.18809v1.pdf)  
@@ -499,15 +499,15 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[Interspatial Attention for Efficient 4D Human Video Generation](https://arxiv.org/abs/2505.15800v2)** (Published: 2025-05-21)  
   Authors: Ruizhi Shao, Yinghao Xu, Yujun Shen, Ceyuan Yang, Yang Zheng, Changan Chen, Yebin Liu, Gordon Wetzstein  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.15800v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://dsaurus.github.io/isa4d/.)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[Grouping First, Attending Smartly: Training-Free Acceleration for Diffusion Transformers](https://arxiv.org/abs/2505.14687v1)** (Published: 2025-05-20)  
   Authors: Sucheng Ren, Qihang Yu, Ju He, Alan Yuille, Liang-Chieh Chen  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14687v1.pdf)  
-  Keywords: diffusion transformer, video generation, FLUX  
+  Keywords: diffusion transformer, FLUX, video generation  
 - **[LMP: Leveraging Motion Prior in Zero-Shot Video Generation with Diffusion Transformer](https://arxiv.org/abs/2505.14167v1)** (Published: 2025-05-20)  
   Authors: Changgu Chen, Xiaoyan Yang, Junwei Shu, Changbo Wang, Yang Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14167v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://vpx-ecnu.github.io/LMP-Website/)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[DraftAttention: Fast Video Diffusion via Low-Resolution Attention Guidance](https://arxiv.org/abs/2505.14708v1)** (Published: 2025-05-17)  
   Authors: Xuan Shen, Chenxia Han, Yufa Zhou, Yanyue Xie, Yifan Gong, Quanyi Wang, Yiwei Wang, Yanzhi Wang, Pu Zhao, Jiuxiang Gu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.14708v1.pdf) | [![GitHub](https://img.shields.io/github/stars/shawnricecake/draft-attention?style=social)](https://github.com/shawnricecake/draft-attention)  
@@ -515,7 +515,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[DanceGRPO: Unleashing GRPO on Visual Generation](https://arxiv.org/abs/2505.07818v1)** (Published: 2025-05-12)  
   Authors: Zeyue Xue, Jie Wu, Yu Gao, Fangyuan Kong, Lingting Zhu, Mengzhao Chen, Zhiheng Liu, Wei Liu, Qiushan Guo, Weilin Huang, Ping Luo  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.07818v1.pdf)  
-  Keywords: rectified flow, video generation, text-to-image, FLUX  
+  Keywords: FLUX, rectified flow, text-to-image, video generation  
 - **[Generative Pre-trained Autoregressive Diffusion Transformer](https://arxiv.org/abs/2505.07344v4)** (Published: 2025-05-12)  
   Authors: Yuan Zhang, Jiacheng Jiang, Guoqing Ma, Zhiying Lu, Haoyang Huang, Jianlong Yuan, Nan Duan  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.07344v4.pdf)  
@@ -523,11 +523,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[DualReal: Adaptive Joint Training for Lossless Identity-Motion Fusion in Video Customization](https://arxiv.org/abs/2505.02192v1)** (Published: 2025-05-04)  
   Authors: Wenchuan Wang, Mengqi Huang, Yijing Tu, Zhendong Mao  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2505.02192v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[DiVE: Efficient Multi-View Driving Scenes Generation Based on Video Diffusion Transformer](https://arxiv.org/abs/2504.19614v1)** (Published: 2025-04-28)  
   Authors: Junpeng Jiang, Gangyi Hong, Miao Zhang, Hengtong Hu, Kun Zhan, Rui Shao, Liqiang Nie  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.19614v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[DiTPainter: Efficient Video Inpainting with Diffusion Transformers](https://arxiv.org/abs/2504.15661v3)** (Published: 2025-04-22)  
   Authors: Xian Wu, Chang Liu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.15661v3.pdf)  
@@ -551,15 +551,15 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[DyDiT++: Dynamic Diffusion Transformers for Efficient Visual Generation](https://arxiv.org/abs/2504.06803v2)** (Published: 2025-04-09)  
   Authors: Wangbo Zhao, Yizeng Han, Jiasheng Tang, Kai Wang, Hao Luo, Yibing Song, Gao Huang, Fan Wang, Yang You  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.06803v2.pdf)  
-  Keywords: text-to-image, FLUX, video generation, diffusion transformer, image generation  
+  Keywords: FLUX, diffusion transformer, image generation, text-to-image, video generation  
 - **[DiTaiListener: Controllable High Fidelity Listener Video Generation with Diffusion](https://arxiv.org/abs/2504.04010v1)** (Published: 2025-04-05)  
   Authors: Maksim Siniukov, Di Chang, Minh Tran, Hongkun Gong, Ashutosh Chaubey, Mohammad Soleymani  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.04010v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[SkyReels-A2: Compose Anything in Video Diffusion Transformers](https://arxiv.org/abs/2504.02436v1)** (Published: 2025-04-03)  
   Authors: Zhengcong Fei, Debang Li, Di Qiu, Jiahua Wang, Yikun Dou, Rui Wang, Jingtao Xu, Mingyuan Fan, Guibin Chen, Yang Li, Yahui Zhou  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.02436v1.pdf)  
-  Keywords: diffusion transformer, video generation, Control, Controllable  
+  Keywords: diffusion transformer, Control, Controllable, video generation  
 - **[OmniTalker: One-shot Real-time Text-Driven Talking Audio-Video Generation With Multimodal Style Mimicking](https://arxiv.org/abs/2504.02433v2)** (Published: 2025-04-03)  
   Authors: Zhongjian Wang, Peng Zhang, Jinwei Qi, Guangyuan Wang, Chaonan Ji, Sheng Xu, Bang Zhang, Liefeng Bo  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2504.02433v2.pdf)  
@@ -571,11 +571,11 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[DynamiCtrl: Rethinking the Basic Structure and the Role of Text for High-quality Human Image Animation](https://arxiv.org/abs/2503.21246v2)** (Published: 2025-03-27)  
   Authors: Haoyu Zhao, Zhongang Qi, Cong Wang, Qingping Zheng, Guansong Lu, Fei Chen, Hang Xu, Zuxuan Wu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.21246v2.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://gulucaptain.github.io/DynamiCtrl/.)  
-  Keywords: diffusion transformer, video generation, Control  
+  Keywords: diffusion transformer, Control, video generation  
 - **[Wan: Open and Advanced Large-Scale Video Generative Models](https://arxiv.org/abs/2503.20314v2)** (Published: 2025-03-26)  
   Authors: Team Wan, Ang Wang, Baole Ai, Bin Wen, Chaojie Mao, Chen-Wei Xie, Di Chen, Feiwu Yu, Haiming Zhao, Jianxiao Yang, Jianyuan Zeng, Jiayu Wang, Jingfeng Zhang, Jingren Zhou, Jinkai Wang, Jixuan Chen, Kai Zhu, Kang Zhao, Keyu Yan, Lianghua Huang, Mengyang Feng, Ningyi Zhang, Pandeng Li, Pingyu Wu, Ruihang Chu, Ruili Feng, Shiwei Zhang, Siyang Sun, Tao Fang, Tianxing Wang, Tianyi Gui, Tingyu Weng, Tong Shen, Wei Lin, Wei Wang, Wei Wang, Wenmeng Zhou, Wente Wang, Wenting Shen, Wenyuan Yu, Xianzhong Shi, Xiaoming Huang, Xin Xu, Yan Kou, Yangyu Lv, Yifei Li, Yijing Liu, Yiming Wang, Yingya Zhang, Yitong Huang, Yong Li, You Wu, Yu Liu, Yulin Pan, Yun Zheng, Yuntao Hong, Yupeng Shi, Yutong Feng, Zeyinzi Jiang, Zhen Han, Zhi-Fan Wu, Ziyu Liu  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.20314v2.pdf) | [![GitHub](https://img.shields.io/github/stars/Wan-Video/Wan2.1?style=social)](https://github.com/Wan-Video/Wan2.1)  
-  Keywords: diffusion transformer, video generation, video editing  
+  Keywords: diffusion transformer, video editing, video generation  
 - **[Mask$^2$DiT: Dual Mask-based Diffusion Transformer for Multi-Scene Long Video Generation](https://arxiv.org/abs/2503.19881v1)** (Published: 2025-03-25)  
   Authors: Tianhao Qi, Jianlong Yuan, Wanquan Feng, Shancheng Fang, Jiawei Liu, SiYu Zhou, Qian He, Hongtao Xie, Yongdong Zhang  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.19881v1.pdf) | [![Project](https://img.shields.io/badge/-Project-blue)](https://tianhao-qi.github.io/Mask2DiTProject.)  
@@ -587,7 +587,7 @@ Thanks to [@longxiang-ai](https://github.com/longxiang-ai) for the template.
 - **[FuXi-RTM: A Physics-Guided Prediction Framework with Radiative Transfer Modeling](https://arxiv.org/abs/2503.19940v1)** (Published: 2025-03-25)  
   Authors: Qiusheng Huang, Xiaohui Zhong, Xu Fan, Lei Chen, Hao Li  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.19940v1.pdf)  
-  Keywords: video generation, FLUX  
+  Keywords: FLUX, video generation  
 - **[Long-Context Autoregressive Video Modeling with Next-Frame Prediction](https://arxiv.org/abs/2503.19325v3)** (Published: 2025-03-25)  
   Authors: Yuchao Gu, Weijia Mao, Mike Zheng Shou  
   Links: [![PDF](https://img.shields.io/badge/PDF-arXiv-b31b1b.svg)](https://arxiv.org/pdf/2503.19325v3.pdf)  
